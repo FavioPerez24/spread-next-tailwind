@@ -32,9 +32,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-// app/layout.tsx
-export const metadata = {
-  title: "Spread - Share & Earn",
-  description: "Join campaigns, share with friends, and earn rewards.",
-};
