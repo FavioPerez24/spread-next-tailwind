@@ -1,7 +1,9 @@
-export default function Page() {
+export default function Home() {
   return (
-    <div className="flex justify-center items-center h-screen bg-gray-100">
-      <h1 className="text-red-500 text-5xl font-bold">Hello Tailwind!</h1>
-    </div>
+    <main className="flex min-h-screen items-center justify-center bg-gray-100">
+      <h1 className="text-4xl font-bold text-blue-600">
+        Welcome to Spread 🚀
+      </h1>
+    </main>
   )
 }
