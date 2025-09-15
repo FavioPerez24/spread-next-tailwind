@@ -31,9 +31,9 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-600">Spread</h1>
           <div className="space-x-6">
-            <a href="/" className="text-gray-700 hover:text-blue-600">
-              Home
-            </a>
+            import Link from "next/link"
+              <Link href="/">Home</Link>
+
             <a
               href="/users/dashboard"
               className="text-gray-700 hover:text-blue-600"
