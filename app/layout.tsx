@@ -32,3 +32,23 @@ export default function RootLayout({
     </html>
   );
 }
+
+import Link from "next/link"
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en">
+      <body className="bg-gray-100">
+        <nav className="bg-white shadow-md p-4 flex justify-between items-center">
+          <h1 className="text-xl font-bold text-blue-600">Spread</h1>
+          <div className="space-x-4">
+            <Link href="/" className="text-gray-700 hover:text-blue-600">Home</Link>
+            <Link href="/campaigns" className="text-gray-700 hover:text-blue-600">Campaigns</Link>
+          </div>
+        </nav>
+        {children}
+      </body>
+    </html>
+  )
+}
+
